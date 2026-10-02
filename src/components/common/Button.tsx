@@ -23,7 +23,7 @@ export const Button: React.FC<ButtonProps> = ({
   const variantStyles = {
     primary: 'bg-brand-500 hover:bg-brand-600 text-white focus:ring-brand-500 shadow-brand-500/20 shadow-md',
     secondary: 'bg-warm-200 hover:bg-warm-300 text-warm-900 focus:ring-warm-400',
-    accent: 'bg-saffron-500 hover:bg-saffron-600 text-warm-900 font-semibold focus:ring-saffron-500 shadow-saffron-500/20 shadow-md',
+    accent: 'bg-saffron-500 hover:bg-saffron-600 text-white font-bold focus:ring-saffron-500 shadow-saffron-500/20 shadow-md',
     outline: 'border border-warm-300 hover:border-brand-500 hover:text-brand-600 bg-white text-warm-800 focus:ring-brand-500',
     ghost: 'hover:bg-warm-100 text-warm-800 hover:text-brand-600 focus:ring-warm-300 shadow-none',
     danger: 'bg-red-500 hover:bg-red-600 text-white focus:ring-red-500 shadow-red-500/20',

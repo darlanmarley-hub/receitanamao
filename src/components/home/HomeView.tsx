@@ -61,10 +61,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <div className="flex flex-wrap items-center gap-2.5 mt-4">
             <Button
               onClick={onOpenImportModal}
-              variant="accent"
+              variant="primary"
               size="md"
-              className="shadow-float"
-              icon={<LinkIcon className="w-4 h-4" />}
+              className="!text-white font-bold shadow-float bg-brand-500 hover:bg-brand-600 border border-white/20"
+              icon={<LinkIcon className="w-4 h-4 text-white" />}
             >
               Importar Receita
             </Button>
@@ -72,26 +72,26 @@ export const HomeView: React.FC<HomeViewProps> = ({
               onClick={onOpenCreateModal}
               variant="outline"
               size="md"
-              className="bg-white/10 hover:bg-white/20 text-white border-white/20"
-              icon={<Plus className="w-4 h-4" />}
+              className="!text-white font-semibold bg-white/15 hover:bg-white/25 border-white/30"
+              icon={<Plus className="w-4 h-4 text-white" />}
             >
               Criar Receita
             </Button>
             <Button
               onClick={() => onSelectTab('shopping')}
-              variant="ghost"
+              variant="outline"
               size="md"
-              className="text-warm-200 hover:text-white"
-              icon={<ShoppingCart className="w-4 h-4" />}
+              className="!text-white font-semibold bg-white/10 hover:bg-white/20 border-white/20"
+              icon={<ShoppingCart className="w-4 h-4 text-white" />}
             >
               Lista de Compras
             </Button>
             <Button
               onClick={() => onSelectTab('planner')}
-              variant="ghost"
+              variant="outline"
               size="md"
-              className="text-warm-200 hover:text-white"
-              icon={<Calendar className="w-4 h-4" />}
+              className="!text-white font-semibold bg-white/10 hover:bg-white/20 border-white/20"
+              icon={<Calendar className="w-4 h-4 text-white" />}
             >
               Planejar Semana
             </Button>
